@@ -1,0 +1,67 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/free_state_golden_gate_1_723.jpg");
+  background-size: cover;
+  background-position-x: 12%;
+  background-position-y: 83%;
+  background-repeat: no-repeat;
+}
+
+.center-container {
+  margin-top: 8em;
+  background-color: rgb(30, 219, 156);
+  width: 85%;
+  margin-left: 2.5em;
+  height: 30em;
+  padding-top: 0.5em;
+  border-radius: 0.5em;
+  opacity: 0.8;
+
+  z-index: 1;
+}
+
+h2 {
+  text-decoration: underline;
+  font-size: 0.8rem;
+  margin-left: 5em;
+  margin-bottom: 3em;
+}
+
+label {
+  margin-left: 4em;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+input[type="text"] {
+  width: 70%;
+  height: 4em;
+  margin-top: 2em;
+  margin-left: 4em;
+  border-style: groove;
+  border-color: green;
+  margin-bottom: 2em;
+  border-radius: 0.8em;
+}
+input[type="password"] {
+  margin-top: 2em;
+  width: 70%;
+  height: 4em;
+  border-style: groove;
+  border-color: green;
+  margin-left: 4em;
+  border-radius: 0.8em;
+}
+
+#btnlogin {
+  margin-left: 1.5em;
+  margin-top: 4em;
+  width: 90%;
+  height: 5em;
+  font-size: 1em;
+  background-color: greenyellow;
+  border-radius: 0.5em;
+  font-weight: bold;
+}
